@@ -5,14 +5,23 @@
 </head>
 <body>
 <script type="text/javascript">
-	for (var i = 1; i<101; i++){
-		if (i%3 === 0){
-			console.log("Fizz");
+	function Buzz ()
+	{
+		for (var i = 1; i<101; i++)
+		{
+			if (i%4 === 0)	
+			{
+				console.log("Buzz");
+
+			}
+			else
+			{
+				console.log(i);
+			}	
+	
 		}
-		else{
-		console.log(i);
-	}
-	}
+	};
+	Buzz();
 </script>
 </body>
 </html>
